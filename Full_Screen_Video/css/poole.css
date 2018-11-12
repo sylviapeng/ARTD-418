@@ -90,17 +90,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #DFFFAA;
+  color: #FFFFFF;
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  top padding: 100px;
+	
+  
+  
 }
-
-strong {
-  color: #303030;
-}
-
 
 /*
  * Container
@@ -109,7 +108,7 @@ strong {
  */
 
 .container {
-  max-width: 800px;
+  width: 100%;
   padding: none;
   text-align: center;
 }
