@@ -43,14 +43,12 @@
     }
   	  
   /* Style the video: 100% width and height to cover the entire window */
-
-
+															
   .intro {
     padding: 50px;
     text-align: center;
   }
 
-<<<<<<< HEAD
   .affix_top {
     top:0px;
   }
@@ -64,24 +62,25 @@
     position:relative;
     right: 0;
     bottom: 0;
+	left: 0px;
     width: 100%;
 	height: 500px;												 
 }
 
 .intro {
 padding-left: 200px;
-padding-top: 20px;
+padding-top: 50px;
 padding-right: 200px;
-padding-bottom: 20px;
+padding-bottom: 50px;
 text-align: center;
 font-size: 15pt;
-
 }
+															
+
 </style>
-=======
-  </style>
+
+<link href="css/scrollFlipbook.css" rel="stylesheet" type="text/css">
 </head>
->>>>>>> a2a22e6fb1763fc7caffa34699b61def0ecd5296
 
 <body>
 	
@@ -105,7 +104,7 @@ font-size: 15pt;
 
  
   <!-- First Container-->
-  <div class="container"> <a name="a1"></a>
+  <div class="container-fluid"> <a name="a1"></a>
 
           <!-- The video  -->
     <video autoplay muted loop id="myFullScreenVideo">
@@ -114,7 +113,8 @@ font-size: 15pt;
     </video>
 
 	<div class="content">
-		<h1>In the Mood for Food</h1>
+		<p>In the Mood for Food</p>
+
 
 				  
 	</div>
@@ -126,9 +126,17 @@ font-size: 15pt;
 
     <!-- Row-->
     <div class="row">
+					<div class="col-sm-1"></div>
       <!-- Left Column -->
-      <div class="col-sm-3">
-        <p>Sed lectus sapien, porttitor quis mollis quis, convallis sed ligula. Quisque rhoncus odio sit amet libero tincidunt volutpat. Integer sollicitudin purus non nulla hendrerit posuere. Nam et velit commodo, vulputate dui rutrum, tempus mi. Ut egestas egestas nunc, nec maximus ipsum tincidunt at. Aenean aliquam venenatis nunc nec ullamcorper. Nullam accumsan risus vitae tortor condimentum, sed malesuada leo condimentum.</p>
+      <div class="col-sm-5">
+        <p>With a growing population of 2.3 million in 2016, Chinese immigrants are the “third-largest foreign-born group on the United States” (migrationpolicy.org). Whether they are international students coming in for a foreign education or migrants looking for better working opportunities, what ties these two demographics together is a shared culture in food.</p> 
+
+        <p>In Chinese and Taiwanese culture, food plays a major role in everyday life because of the importance of using raw materials to create a dish that can be shared with a table of people. Recipes themselves can be adapted, molded, changed, or substituted, but the end result is still Chinese food whether the family is lower class or upper class.</p>
+
+        <p>We interviewed two people from different demographics; Grace*, an immigrant from China who owns an Asian fusion restaurant, and Michelle, an international student from Taiwan studying design. </p>
+
+        <p>(*Some names and identifying details have been changed to protect the privacy of individuals.)</p>
+						   
       
           <!-- The video  -->
     <video autoplay muted loop id="myVideo">
@@ -139,7 +147,7 @@ font-size: 15pt;
 
       </div>
       <!-- Right Column -->
-      <div class="col-sm-9">
+      <div class="col-sm-6">
         <!-- Sections in right column -->
         <section id="a1"><a name="a1"></a> A1
           <section id="a1a">
@@ -168,11 +176,11 @@ font-size: 15pt;
     <!-- Row-->
     <div class="row">
       <!-- Left Column -->
-      <div class="col-sm-3">
+      <div class="col-sm-6">
         <p>Sed lectus sapien, porttitor quis mollis quis, convallis sed ligula. Quisque rhoncus odio sit amet libero tincidunt volutpat. Integer sollicitudin purus non nulla hendrerit posuere. Nam et velit commodo, vulputate dui rutrum, tempus mi. Ut egestas egestas nunc, nec maximus ipsum tincidunt at. Aenean aliquam venenatis nunc nec ullamcorper. Nullam accumsan risus vitae tortor condimentum, sed malesuada leo condimentum.</p>
       </div>
       <!-- Right Column -->
-      <div class="col-sm-9">
+      <div class="col-sm-6">
         <!-- Sections in right column -->
         <section id="a2"><a name="a2"></a> A2
           <section id="a2a"> A2A</section>
@@ -188,7 +196,7 @@ font-size: 15pt;
     <!-- Row-->
     <div class="row">
       <!-- Left Column -->
-      <div class="col-sm-3">
+      <div class="col-sm-6">
         
 
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -258,7 +266,7 @@ font-size: 15pt;
 
       </div>
       <!-- Right Column -->
-      <div class="col-sm-9">
+      <div class="col-sm-6">
         <!-- Sections in right column -->
         <section id="a3"><a name="a3"></a> A3
           <section id="a3a"> A3A</section>
