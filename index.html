@@ -28,14 +28,29 @@
   <link href="css/scrollFlipbook.css rel"="stylesheet" type="text/css">
   <link href="css/anime.css rel="stylesheet" type="text/css">
 
-	
-</head>
- <style>
-  .affix {
-    bottom: -20px;
-    z-index: 9999 !important;
+   <style>
+    .affix {
+      top: 20px;
+      z-index: 9999 !important;
+    }
+
+    .affix_top {
+      top:0px;
+    }
+
+    .affix + .container-fluid {
+      padding-top: 70px;
+    }
+  	  
+  /* Style the video: 100% width and height to cover the entire window */
+
+
+  .intro {
+    padding: 50px;
+    text-align: center;
   }
 
+<<<<<<< HEAD
   .affix_top {
     top:0px;
   }
@@ -54,13 +69,22 @@
 }
 
 .intro {
-padding: 50px;
+padding-left: 200px;
+padding-top: 20px;
+padding-right: 200px;
+padding-bottom: 20px;
 text-align: center;
+font-size: 15pt;
 
 }
 </style>
+=======
+  </style>
+</head>
+>>>>>>> a2a22e6fb1763fc7caffa34699b61def0ecd5296
 
 <body>
+	
  <div class="container">
     <!-- Navigation bar-->
     <nav class="navbar navbar-default" data-spy="affix">
@@ -77,28 +101,42 @@ text-align: center;
       </div>
     </nav>
   </div>
-<div>
-    <h1>In the Mood for Food</h1>
-					  
-	  <!-- The video -->
-    <video autoplay muted loop id="myVideo">
-    <source src="Food Video.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-	</video>
-</div>
 
-<div class="intro">
-<p>The story for “In the Mood for Food” is essentially telling the story of two immigrants, one from China and one from Taiwan, and the history of their childhood in relation to food. From there, they compare how Americanized Chinese food to actual Chinese food from China. The story shows how much of an impact food has in our lives and how closely it ties with culture and upbringing.</p>	
-</div>
 
  
   <!-- First Container-->
   <div class="container"> <a name="a1"></a>
+
+          <!-- The video  -->
+    <video autoplay muted loop id="myFullScreenVideo">
+      <source src="Food Video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+	<div class="content">
+		<h1>In the Mood for Food</h1>
+
+				  
+	</div>
+
+	<div class="intro">
+		<p>The story for “In the Mood for Food” is essentially telling the story of two immigrants, one from China and one from Taiwan, and the history of their childhood in relation to food. From there, they compare how Americanized Chinese food to actual Chinese food from China. The story shows how much of an impact food has in our lives and how closely it ties with culture and upbringing.</p>	
+	</div>
+
+
     <!-- Row-->
     <div class="row">
       <!-- Left Column -->
       <div class="col-sm-3">
         <p>Sed lectus sapien, porttitor quis mollis quis, convallis sed ligula. Quisque rhoncus odio sit amet libero tincidunt volutpat. Integer sollicitudin purus non nulla hendrerit posuere. Nam et velit commodo, vulputate dui rutrum, tempus mi. Ut egestas egestas nunc, nec maximus ipsum tincidunt at. Aenean aliquam venenatis nunc nec ullamcorper. Nullam accumsan risus vitae tortor condimentum, sed malesuada leo condimentum.</p>
+      
+          <!-- The video  -->
+    <video autoplay muted loop id="myVideo">
+      <source src="Food Video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+
       </div>
       <!-- Right Column -->
       <div class="col-sm-9">
@@ -118,7 +156,7 @@ text-align: center;
             </svg>
           </section>
           <section id="a1b"> A1B
-			<img src="../ARTD418/ARTD-418/images/food3.jpg" width="100%" height="" alt=""/> </section>
+			<img src="images/food3.jpg" width="100%" height="" alt=""/> </section>
           <section id="a1c"> A1C</section>
         </section>
       </div>
