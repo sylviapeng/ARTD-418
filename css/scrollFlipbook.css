@@ -28,12 +28,25 @@
 }
 
 #a1a {
-	align-items: center;
+	position: relative;
+	padding-left: 20px;
+
+}
+#a1b {
+	position: relative;
+	padding-top: 30px;
 }
 
 h4 {
-	color: #C33235
+	color: #C33235;
+	font-size: 18pt;
 	
+	
+}
+
+body {
+	font-size: 13pt;
+	font: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	
 }
 	
