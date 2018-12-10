@@ -42,7 +42,9 @@
 
 	
 .title{
-	padding-left: 180px;
+	position: relative;
+	left: 130px;
+	
 }
 
 h4 {
